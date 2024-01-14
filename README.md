@@ -1,0 +1,3 @@
+Video hard cut detection is a process used to identify abrupt transitions or cuts between consecutive video shots. It involves analyzing frames per second (fps) and histograms.fps metric measures the number of frames displayed per second in a video. Hard cuts often result in a significant change in fps, as there is a sudden shift from one shot to another.
+Histograms represent the distribution of pixel intensities in an image. In video hard cut detection, analyzing histogram changes helps identify abrupt transitions. A sharp change in the histogram indicates a likely cut between shots.
+By examining both fps variations and histogram changes, video hard cut detection algorithms can effectively locate the points where different shots begin and end in a video sequence.
